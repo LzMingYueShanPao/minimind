@@ -7,7 +7,7 @@ class LMConfig(PretrainedConfig):
 
     def __init__(
             self,
-            dim: int = 512,
+            dim: int = 512, # 维度
             n_layers: int = 8,
             n_heads: int = 16,
             n_kv_heads: int = 8,
